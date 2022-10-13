@@ -1,0 +1,109 @@
+body{
+    background: rgb(36, 0, 53);
+}
+::-webkit-scrollbar{
+    width: 20px;
+}
+::-webkit-scrollbar-track{
+    background: rgb(0, 132, 255);
+}
+::-webkit-scrollbar-thumb{
+    background: rgb(0, 68, 255);
+}
+::-webkit-scrollbar-thumb:hover{
+    background: rgb(0, 34, 129);
+}
+::-webkit-scrollbar-thumb:active{
+    background: rgb(0, 54, 201);
+}
+button{
+    cursor: pointer;
+}
+#title{
+    font-size: 27px;
+    text-align: center;
+    color: white;
+    font-family: EB;
+    font-weight: 500;
+    background: linear-gradient(blue, rgb(0, 110, 255));
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: 0%;
+    padding: 25px 0px;
+    height: 45px;
+}
+#numbers{
+    width: 190px;
+    outline: none;
+    border-radius: 5px;
+    height: 12px;
+    border: none;
+    border: solid 2px rgb(255, 255, 255);
+    padding: 5px;
+    transition: 0.4s;
+    -webkit-transition: 0.4s;
+    -moz-transition: 0.4s;
+}
+#numbers:focus{
+    width: 260px;
+    outline: none;
+    border: solid 2px rgb(0, 255, 21);
+}
+#find{
+    background: rgb(0, 225, 255);
+    font-family: HH;
+    font-size: 15px;
+    padding: 5px;
+    width: 100px;
+    border: none;
+    border-radius: 5px;
+}
+#align{
+    text-align: center;
+}
+/* #list{
+
+} */
+#listing{
+    color: white;
+    font-family: ag;
+    font-size: 19px;
+    list-style-type: square;
+}
+#clear{
+    background: rgb(0, 255, 255);
+    font-family: HH;
+    font-size: 15px;
+    padding: 5px;
+    width: 150px;
+    border: none;
+    border-radius: 5px;
+}
+
+/* responsive */
+
+@media screen and (max-width: 323px) {
+    #find{
+        margin-top: 5px;
+        font-size: 14px;
+    }
+    #clear{
+        width: 100px;
+        font-size: 14px;
+        margin-top: 5px;
+    }
+}
+@media screen and (max-width: 300px) {
+    #title{
+        font-size: 25px;
+        height: 40px;
+    }
+}
+@media screen and (max-width: 270px) {
+    #title{
+        font-size: 20px;
+        height: 35px;
+    }
+}
